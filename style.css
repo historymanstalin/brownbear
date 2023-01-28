@@ -1,0 +1,51 @@
+body{
+    background-color: darkcyan;
+}
+
+.banner{
+    background-color: goldenrod;
+    height: 350px;
+    background-image: url(./pokemonlife.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    background-color: gold;
+    padding: 25px;
+    text-align: center;
+
+}
+.nav a{
+    background-color: lightskyblue;
+    padding: 15px;
+    margin: 15px;
+    color: lightcyan;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 10px 5px 2px greenyellow;
+    border-radius: 15px;
+}
+.nav a:hover{
+    background-color: whitesmoke;
+    color: lightgoldenrodyellow;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    border-radius: 2px solid whitesmoke;
+    display: inline-block;
+}
+
+.card img{
+    width: 250px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.card h3{
+    text-align: center;
+    color: cyan;
+}
